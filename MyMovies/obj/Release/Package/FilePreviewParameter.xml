@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="MyMovies20160912034154" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Ivo\\Програми\\Проект\\MyMovies\\MyMovies\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^D:\\Ivo\\Програми\\Проект\\MyMovies\\MyMovies\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=tcp:mymovies20160912034154dbserver.database.windows.net,1433;Initial Catalog=MyMovies20160912034154_db;User Id=MovieMania@mymovies20160912034154dbserver;Password=060899aA" tags="">
+    <parameterEntry kind="XmlFile" scope="D:\\Ivo\\Програми\\Проект\\MyMovies\\MyMovies\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="MyMovies.Models.MovieDBContext-Web.config Connection String" description="" value="MyMovies.Models.MovieDBContext_ConnectionString" tags="">
+    <parameterEntry kind="XmlFile" scope="D:\\Ivo\\Програми\\Проект\\MyMovies\\MyMovies\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MyMovies.Models.MovieDBContext']/@connectionString" />
+  </parameter>
+</parameters>
